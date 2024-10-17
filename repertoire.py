@@ -19,9 +19,9 @@ def genere_arbre(chemin="./"):
             arbre.ajoute_fils(Arbre(item.name))
     return arbre
 
-
-chemin = os.getcwd()
-arbre = genere_arbre("../")
-arbre.affiche()
+if __name__ == "__main__":
+    chemin = os.getcwd()
+    arbre = genere_arbre("../")
+    arbre.affiche()
 
 
