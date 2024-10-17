@@ -21,9 +21,6 @@ def genere_arbre(chemin="./"):
 
 
 chemin = os.getcwd()
-'''
-print()
-print()'''
 arbre = genere_arbre("../")
 arbre.affiche()
 
